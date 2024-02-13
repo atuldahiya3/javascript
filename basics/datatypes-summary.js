@@ -16,3 +16,10 @@ let myObj={
 const myFunction= function(){
     console.log("this is inside function")
 }
+
+
+/* stack stores primitive data-type, heap stores non-primitive data-type
+    -> a copy of data is provided in primitive data type from stack
+    -> in non primitive datatype , reference to orignal datatype is provided
+*/
+
