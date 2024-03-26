@@ -27,7 +27,7 @@ for (const [key,value] of map) {
 
 //for of doesnot work on objects
 
-//for of
+//for in
 
 const myObj={
     a:'atul',
