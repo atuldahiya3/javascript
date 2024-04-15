@@ -1,6 +1,6 @@
 StackBlitz link to projects: https://stackblitz.com/edit/dom-project-chaiaurcode?file=index.html
 
-=> Project 1 solution code 
+##Project 1 solution code 
 
 #JavaScript
 
@@ -31,7 +31,7 @@ buttons.forEach(function(button){
 })
 
 
-=> Project 2 solution
+##Project 2 solution
 
 const form= document.querySelector('form')
 
@@ -54,3 +54,13 @@ form.addEventListener('submit',function(e){
     results.innerHTML=`<span>${bmi}</span>`
   }
 })
+
+
+##Project 3 solution
+
+const clock= document.getElementById('clock')
+
+setInterval(function(){
+  let date= new Date()
+  clock.innerHTML=date.toLocaleTimeString()  
+}, 1000)
